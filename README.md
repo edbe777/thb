@@ -14,18 +14,19 @@ This theme requires each post to follow this structure:
 ```text
 content/
 ├── posts
-│   ├── my-post
+│   ├── First_post
 │   │   ├── index.md
-│   │   ├── mytrack.gpx
+│   │   ├── track0.gpx
 │   │   └── images
-│   │       ├── IMGP.jpg
+│   │       ├── IMG0.jpg
 │   │       └── ..
-│   ├── my-other-post
+│   ├── Second_post
 │   │   ├── index.md
-│   │   ├── mytrack.gpx
-│   │   ├── mysecondtrack.gpx
+│   │   ├── track1.gpx
+│   │   ├── track2.gpx
 │   │   └── images
-│   │       ├── IMGP.jpg
+│   │       ├── IMG1.jpg
+│   │       ├── IMG2.jpg
 │   │       └── ..
 ```
 
