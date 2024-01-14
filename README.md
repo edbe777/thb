@@ -7,9 +7,7 @@ This project is licensed under the [GPLv3 license](/LICENSE). Due to 3rd-party i
 
 It is inspired by [Hugo Split Theme](https://github.com/christianmendoza/hugo-split-theme), itself ported from [Split](https://onepagelove.com/split) by [One Page Love](https://onepagelove.com).
 
-### Content archetype
-
-*This theme supports any type of section (`post`, `blog`, ...). For simplicity, we'll use the term `post` in this part.*
+### Structure of Posts
 
 This theme requires each post to follow this structure:
 
@@ -31,10 +29,10 @@ content/
 │   │       └── ..
 ```
 
-In other words, photos displayed in the gallery **must** be in a `images` subfolder, and track(s) -if any- must be at the same level as the content. Supported formats for tracks are GPX (`.gpx` files), KML (`.kml` files) and GeoJSON (`.geojson` files).
+Photos displayed in the gallery **must** be in a `images` subfolder, and track(s) -if any- must be at the same level as the content.
+Supported formats for tracks are GPX (`.gpx` files), KML (`.kml` files) and GeoJSON (`.geojson` files).
 
 Additionnally, the content of the post:
-
 * **requires** an `images` parameter, refering to at least one picture from this post, which will be used as thumbnail in the home gallery,
 * can have a `seealso` parameter, refering to one or multiple other posts.
 
