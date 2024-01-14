@@ -1,4 +1,4 @@
-# Hugo Split Gallery | [Demo](https://tmuguet.gitlab.io/hugo-split-gallery/)
+# Hugo Split Gallery
 
 Split Gallery is a theme for [Hugo](http://gohugo.io/) focused on photos and maps.  
 This Hugo theme features a photo gallery, a map and custom content per page, and supports custom sections and taxonomies.
